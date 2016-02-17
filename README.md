@@ -8,8 +8,8 @@ This is a place to publish experiments and investigations from the Connected Dev
 * Other stuff you want to add!
 
 ### How to contribute
-* Create an issue.
-* Label it. Add more labels if you think we need them - see below!  
-* Continue the conversation - comment on other people's issues.
+1. Create an issue.
+2. Label it. Add more labels if you think we need them - see below!
+3. Continue the conversation - comment on other people's issues.
 
   <img src="repo_images/repo_labels.png" align="left" height="300" border="1" alt="labels used for repo">  
