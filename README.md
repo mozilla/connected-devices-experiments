@@ -8,10 +8,11 @@ This is a place to publish experiments and investigations from the Connected Dev
 * Other stuff you want to add!
 
 ### How to contribute
-Create an issue.
+[Create an issue][1] for your experiment, investigation, review, etc.
 
 Label it. Add more labels if you think we need them - see below!
 
-Continue the conversation - comment on other people's issues.
+Continue the conversation - see other people's issues and comment.
 
 <img src="repo_images/repo_labels.png" align="left" height="300" border="1" alt="labels used for repo">  
+[1]: https://github.com/mozilla/connected-devices-experiments/issues
