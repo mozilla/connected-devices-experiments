@@ -1,16 +1,23 @@
-s the first installment of setting up my SmartThings to [do the scenarios described here](https://github.com/mozilla/connected-devices-experiments/issues/1).
+This is the first installment of setting up my SmartThings to [do the scenarios described here](https://github.com/mozilla/connected-devices-experiments/issues/1).
 
 Feel free to comment - especially if you've also purchased anything in the SmartThings family!
+
 ++++++++++++++++++++
+
 ### Hub setup 
 <img src="https://cloud.githubusercontent.com/assets/234670/13186852/eff1455a-d6fc-11e5-8429-4459cc3b1960.png" height="300" >
+
 Start by setting up the hub. It needs to plug into my router. Fine, but the cord is super short -- it's maybe 3 feet. Spend 15 minutes reorganizing my desk area where the router lives so that I can position the hub in a place that works and isn't in the way of other desk things that are already there.
 
 The instructions ask you to download the SmartThings app, which then walks you through setting up an account and setting up the hub. **The hub setup screens are the best part of the SmartThings app; they did a nice job here.**
+
 ++++++++++++++++++++
+
 ### Motion Sensor setup
 Next I open and pair one motion sensor - 5 minutes. I can see in the SmartThings app that motion is being detected - cool! Discovered that the motion sensor registers temperature -- didn't know that. 
+
 ++++++++++++++++++++
+
 ### Smart Outlet setup
 Then start setting up the outlet for the kitchen lights. I want to be able to wave my hand over the motion sensor in my bedroom to trigger the kitchen lights to go on.
 
@@ -23,25 +30,32 @@ But...I can see that it would be easy for me to forget to set this correctly bef
 > Sidebar: This kind of setup is prone to "user error," e.g., a family member accidentally turns the manual switch "off" in the evening, and everybody's pissed in the morning when the lights don't come on as expected.
 
 ++++++++++++++++++++
+
 ### Mashing it up
 Now to connect the motion sensor to the outlet. SmartThings has some built-in "routines" like _Good Morning_ and _Good Night_. The _Good Morning_ routine seems a good place to start. 
+
 <img src="https://cloud.githubusercontent.com/assets/234670/13186918/2fb91d48-d6fd-11e5-917b-76b28b16220f.PNG" height="300">
 
 The hit area for the settings gear is far too small. I keep missing it and pressing the larger hit area that triggers the routine to start. Super irritating. Finally get into the routine settings.
 
 > Incredibly annoying: Every selection in the SmartThings app triggers the spinner while the app “thinks about” something. My sense is that I’m "wasting a lot of time" in this app. They should fix this, as most of the actions are navigation and should not require the system to do any thinking.
+
 <img src="https://cloud.githubusercontent.com/assets/234670/13186996/96a754fc-d6fd-11e5-8d3b-fa581152adc2.PNG" height="300">
 
 Select _Kitchen Outlet 1_ under _Turn on these lights or switches_. 
+
 <img src="https://cloud.githubusercontent.com/assets/234670/13187078/f9cbdca6-d6fd-11e5-9892-17137bae4e92.PNG" height="300">
 
 Now what? Further down the screen is a section called _Automatically perform "Good Morning."_ This phrase does not include the words _when_ or _if_, so I don’t immediately make the connection that this section is how I trigger this routine. Tap it anyway. 
+
 <img src="https://cloud.githubusercontent.com/assets/234670/13187086/0dbac150-d6fe-11e5-8e23-928c2b455841.PNG" height="300">
 
 Go through a few screens to select the _Bedroom Motion 1 sensor_.  Ugh the whole point of me using the motion sensor is so I don't have to set a schedule -- I keep odd hours and don't always wake up at the same time, so I just want this routine to start whenever I wave my hand over the motion sensor, even if that time is 11pm. But SmartThings has decided that a timeframe is required in order to save this routine. Lame. Select 4am to noon. Save.
+
 <img src="https://cloud.githubusercontent.com/assets/234670/13187278/21c4b614-d6ff-11e5-915a-904e7a5f34e6.PNG" height="300">
 
 > Sidebar: After revisiting this screen 5 times, I realized that the _Automatically perform “Good Morning”_ phrase now includes the word _when_. This is just silly. The phrase should not change in this barely noticeable (but very important) way. It should always say _Automatically perform “Good Morning” when_  so that it helps people understand what they’re doing.
+
 <img src="https://cloud.githubusercontent.com/assets/234670/13187722/b3823692-d701-11e5-8de1-cdd6c9ab9c7e.PNG" height="300">
 
 Go into bedroom and wave hand over motion sensor. Nothing happens to the lights, though the app tells me that motion is being detected. Double-check the routine, which requires going deep into screens, each time watching the annoying spinner. Everything looks ok. Try it again. Doesn't work.
