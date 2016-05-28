@@ -116,4 +116,6 @@ So I email SmartThings to cancel my order. To their credit, they reply immediate
 ### <a name="fun"></a>I want more fun!
 _Tuesday, Feb 16, 2016_
 
-I'm also looking into building an ambient light indicator that responds when the mail arrives. I'll link to that investigation from here.
+I'm also looking into building an ambient light indicator that responds when the mail arrives. 
+
+Check out [the second installment of this series](https://github.com/mozilla/connected-devices-experiments/blob/master/reviews/SmartThings-Makes-me-feel-stupid.md).
