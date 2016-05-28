@@ -1,4 +1,4 @@
-This is the first installment of setting up my SmartThings to [do the scenarios described here](https://github.com/mozilla/connected-devices-experiments/issues/1).
+This is the second installment of setting up my SmartThings to [do the scenarios described here](https://github.com/mozilla/connected-devices-experiments/issues/1).
 
 Feel free to comment - especially if you've also purchased anything in the SmartThings family!
 
